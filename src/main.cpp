@@ -260,9 +260,17 @@ int main(int arc, char* argv[])
 		SDL_RenderClear(renderer);
 
 		// Draw snake
-		SDL_SetRenderDrawColor(renderer, 12, 172, 12, 255);
+
+		bool snakeHead = true;
 		for (auto& rect : snakeRects) {
-			SDL_RenderFillRect(renderer, &rect);
+            if (snakeHead) {
+                SDL_SetRenderDrawColor(renderer, 12, 172, 12, 255);
+                SDL_RenderFillRect(renderer, &rect);
+                snakeHead = false;
+            } else {
+                SDL_SetRenderDrawColor(renderer, 12, 100, 12, 255);
+                SDL_RenderFillRect(renderer, &rect);
+            }
 		}
 
 		// Draw an apple
