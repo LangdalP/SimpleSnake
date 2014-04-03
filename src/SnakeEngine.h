@@ -1,5 +1,3 @@
-#pragma once
-
 #ifndef GRANDFATHER_H
 #define GRANDFATHER_H
 
@@ -10,8 +8,8 @@
 const int BOARD_WIDTH = 32;
 const int BOARD_HEIGHT = 20;
 
-// const int BOARD_WIDTH = 32;
-// const int BOARD_HEIGHT = 18;
+//const int BOARD_WIDTH = 32;
+//const int BOARD_HEIGHT = 18;
 
 class SnakeEngine
 {

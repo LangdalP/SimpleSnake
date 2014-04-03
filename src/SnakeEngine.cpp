@@ -1,3 +1,4 @@
+
 #include "SnakeEngine.h"
 #include <stdlib.h>	// rand, srand
 #include <time.h>	// time for seed
@@ -140,8 +141,6 @@ void SnakeEngine::growSnake(int x, int y)
 	newHead->x = x;
 	newHead->y = y;
 	snakeVec.insert(snakeVec.begin(), newHead);
-
-	std::cout << "Growing snake! New length: " << snakeVec.size() << std::endl;
 }
 
 bool SnakeEngine::posIsOutsideBoard(int x, int y)
@@ -268,6 +267,7 @@ std::string SnakeEngine::boardToString(void)
 	return boardStr;
 }
 
+
 std::string SnakeEngine::snakeToString(void)
 {
 	std::string snakeStr = "";
@@ -279,6 +279,7 @@ std::string SnakeEngine::snakeToString(void)
 	}
 	return snakeStr;
 }
+
 
 std::vector<SnakeEngine::BoardPos*>* SnakeEngine::getSnakeVector(void)
 {
