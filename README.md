@@ -8,4 +8,4 @@ The snake engine (class) is responsible for game logic and the implementation is
 
 Also I am  dynamically allocating new BoardPos structs for the snake vector (and deleting them in the destructor). Might be unnecessary.
 
-Screenshot: https://dl.dropboxusercontent.com/u/11211513/SimpleSnake%202014-03-31%2022-35-43-14.jpg
+Screenshot: https://dl.dropboxusercontent.com/u/11211513/SimpleSnake_ScreenShot.jpg
