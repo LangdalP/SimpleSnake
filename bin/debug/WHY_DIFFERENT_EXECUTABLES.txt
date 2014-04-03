@@ -1,4 +1,5 @@
 Currently the game is compiled for a specific screen resolution.
 This might or might not be changed in the future, depending on whether I will keep developing on this simple game.
 
-If your screen is larger than the designated screen resolution, you will not use the entire screen area.
+If your screen is larger than the intended screen resolution, you will not use the entire screen area.
+I have not tested what happens if your screen is smaller.
